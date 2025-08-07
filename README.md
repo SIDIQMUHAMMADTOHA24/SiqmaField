@@ -25,7 +25,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  siqma_field: ^1.0.0
+  siqma_field: ^1.0.1
 ```
 
 ## 🔧 Usage
