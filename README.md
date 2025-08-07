@@ -92,13 +92,13 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FieldWidget(
+              SiqmaField(
                 controller: exampleController,
                 label: "Email",
                 textInputAction: TextInputAction.next,
               ),
               SizedBox(height: 16),
-              FieldWidget(
+              SiqmaField(
                 controller: passwordController,
                 label: "Password",
                 obscureText: !isPasswordVisible,
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               const SizedBox(height: 16),
-              FieldWidget(
+              SiqmaField(
                 controller: confirmPasswordController,
                 label: "Confirm Password",
                 obscureText: !isConfirmPasswordVisible,
